@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Barbell Set",
+        "description": "This set includes a 45-pound barbell and 4 10-pound weight plates. Perfect for weight lifting and strength training.",
+        "category": "Weightlifting",
+        "price": 99.99,
+        "age": "20-25",
+        "image": "./AllProducts/Barbell.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Functional Trainers",
+        "description": "A high-performance Benches with adjustable speed and incline. Great for indoor cardio workouts.",
+        "category": "Cardio",
+        "price": 599.99,
+        "age": "20-25",
+        "image": "./AllProducts/Functional Trainers.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kettlebell",
+        "description": "This 20-pound kettlebell is perfect for functional training exercises such as swings, snatches, and cleans.",
+        "category": "Functional Training",
+        "price": 39.99,
+        "age": "20-25",
+        "image": "./AllProducts/Kettlebell.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rowing Machine",
+        "description": "A versatile piece of equipment that allows for a wide range of exercises, including squats, bench presses, and shoulder presses.",
+        "category": "Strength Training",
+        "price": 999.99,
+        "age": "20-25",
+        "image": "./AllProducts/Rowing Machine.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Stair Climber",
+        "description": "Stair Climber with multiple resistance levels and built-in workout programs. Perfect for low-impact cardio workouts.",
+        "category": "Cardio",
+        "price": 799.99,
+        "age": "20-25",
+        "image": "./AllProducts/Stair Climber.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dumbbell Set",
+        "description": "This set includes a range of dumbbell weights from 5 to 25 pounds, making it perfect for a variety of strength training exercises.",
+        "category": "Weightlifting",
+        "price": 149.99,
+        "age": "20-25",
+        "image": "./AllProducts/Dumbbells.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Bench Press",
+        "description": "A sturdy and adjustable bench press for building upper body strength and mass.",
+        "category": "Strength Training",
+        "price": 299.99,
+        "image": "./AllProducts/Gym Benches.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Spining",
+        "description": "A compact and portable stair Spining with adjustable resistance levels. Perfect for at-home cardio workouts.",
+        "category": "Cardio",
+        "price": 199.99,
+        "age": "20-25",
+        "image": "./AllProducts/Spining.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Gym rack",
+        "description": "A Gym rack in varying heights, perfect for jump training and box jumps.",
+        "category": "Functional Training",
+        "price": 129.99,
+        "age": "20-25",
+        "image": "./AllProducts/Gym rack.jpg"
+    }
+]
