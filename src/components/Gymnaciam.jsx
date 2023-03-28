@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import Profile from './Profile'
-import logo from '/durbel.png'
-import Products from './Products'
+import Banner from './Banner'
+import Products from './Products';
+import Profile from './Profile';
 
 const Gymnaciam = () => {
-    const [itams, setItems] = useState([]);
+    const [items, setItems] = useState([]);
     useEffect(() => {
         fetch('/Products.JSON')
             .then(res => res.json())
@@ -12,24 +12,20 @@ const Gymnaciam = () => {
     }, [])
     return (
         <div className='flex justify-between'>
-            <section>
-                <div className='flex space-x-4 items-center'>
-                    <img src={logo} alt="" />
-                    <h1 className='font-bold uppercase text-blue-500
-                    text-2xl'>Ultra-active-club</h1>
-                </div><br />
-                <h2 className='text-slate-500 text-2xl font-semibold'>Select today’s exercise</h2>
-
-                {
-                    itams.map(item => <Products
-                        key={item.id}
-                        allProduct={item}
-                    ></Products>)
-                }
+            <section className='w-4/6'>
+                <Banner />
+                <div className='grid grid-cols-3 gap-2 my-4'>
+                    {
+                        items.map(item => <Products
+                            key={item.id}
+                            allProduct={item}
+                        ></Products>)
+                    }
+                </div>
             </section>
 
-            <section>
-                <Profile></Profile>
+            <section className='w-[350px] ml-10'>
+                <Profile />
             </section>
         </div>
     )
