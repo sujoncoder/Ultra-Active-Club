@@ -8,10 +8,11 @@ import BreakTime from './BreakTime'
 import Button from './Button'
 
 const Profile = () => {
+
     return (
-        <div className='bg-white px-6 w-full py-4 rounded mt-24'>
+        <div className='bg-white px-6 w-full py-4 rounded'>
             <section className='flex items-center space-x-2'>
-                <img className='w-14 h-14 rounded-full border-cyan-500 border-2' src={ProfilePic} alt="" />
+                <img className='w-14 h-14 rounded-full border-cyan-500 border-4 hover:grayscale cursor-pointer duration-300' src={ProfilePic} alt="" />
 
                 <div>
                     <h1 className='text-xl font-bold'>Sujon Sheikh</h1>
@@ -34,7 +35,7 @@ const Profile = () => {
             </section><br />
 
             <section>
-                <ExcersizeDetails />
+                <ExcersizeDetails Profile={Profile} />
             </section>
 
             <section>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const ExcersizeDetails = () => {
+
     return (
         <div>
             <h1 className='text-2xl font-semibold mb-2'>Exercize Details</h1>
@@ -12,7 +13,7 @@ const ExcersizeDetails = () => {
                     </div>
 
                     <div>
-                        <p className='text-slate-400'>200 Seconds</p>
+                        <p className='text-slate-400'>200s</p>
                     </div>
                 </section>
 

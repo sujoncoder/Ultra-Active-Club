@@ -6,6 +6,7 @@
         "category": "Weightlifting",
         "price": 99.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Barbell.jpg"
     },
     {
@@ -15,6 +16,7 @@
         "category": "Cardio",
         "price": 599.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Functional Trainers.jpg"
     },
     {
@@ -24,6 +26,7 @@
         "category": "Functional Training",
         "price": 39.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Kettlebell.jpg"
     },
     {
@@ -33,6 +36,7 @@
         "category": "Strength Training",
         "price": 999.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Rowing Machine.jpg"
     },
     {
@@ -42,6 +46,7 @@
         "category": "Cardio",
         "price": 799.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Stair Climber.jpg"
     },
     {
@@ -51,6 +56,7 @@
         "category": "Weightlifting",
         "price": 149.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Dumbbells.jpg"
     },
     {
@@ -59,6 +65,7 @@
         "description": "A sturdy and adjustable bench press for building upper body strength and mass.",
         "category": "Strength Training",
         "price": 299.99,
+        "time": "30s",
         "image": "./AllProducts/Gym Benches.jpg"
     },
     {
@@ -68,6 +75,7 @@
         "category": "Cardio",
         "price": 199.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Spining.jpg"
     },
     {
@@ -77,6 +85,7 @@
         "category": "Functional Training",
         "price": 129.99,
         "age": "20-25",
+        "time": "30s",
         "image": "./AllProducts/Gym rack.jpg"
     }
 ]
